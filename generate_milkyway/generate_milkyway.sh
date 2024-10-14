@@ -2,7 +2,8 @@
 # Author: Charles Tsao
 
 # Generate Milkyway file using generate_milkyway.tcl
-Milkyway -tcl -nogui -galaxy -file generate_milkyway.tcl & exit
+Milkyway -tcl -nogui -galaxy -file generate_milkyway.tcl
 
-cp $TOP/generate_milkyway/rtk-tech.tf $TOP/view-standard/rtk-tech.tf 
-cp -r $TOP/generate_milkyway/stdcells.mwlib $TOP/view-standard/stdcells.mwlib 
+cp $TOP/generate_milkyway/rtk-tech.tf $TOP/view-standard/ 
+cp -r $TOP/generate_milkyway/stdcells.mwlib $TOP/view-standard/
+exit 
