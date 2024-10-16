@@ -7,7 +7,7 @@ TOP = os.environ['TOP']
 LIB = TOP + '/generate_lib/sky130_fd_sc_hd__tt_025C_1v80.lib'
 
 #copyfile(SKYWATER130_HOME + '/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib', LIB)
-copyfile(SKYWATER130_HOME + '/../skywater-pdk/libraries/sky130_fd_sc_hd/latest/timing/sky130_fd_sc_hd__tt_025C_1v80.lib', TOP + '/generate_lib/sky130_fd_sc_hd__tt_025C_1v80.lib')
+copyfile(SKYWATER130_HOME + '/../../skywater-pdk/libraries/sky130_fd_sc_hd/latest/timing/sky130_fd_sc_hd__tt_025C_1v80.lib', TOP + '/generate_lib/sky130_fd_sc_hd__tt_025C_1v80.lib')
 
 
 
