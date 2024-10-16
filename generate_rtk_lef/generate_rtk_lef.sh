@@ -6,10 +6,10 @@ cp $SKYWATER130_HOME/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef 
     $TOP/view-standard/rtk-tech.lef
 
 cp $SKYWATER130_HOME/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef \
-    $TOP/view-standard/rtk-tech-captable.lef
+    $TOP/generate_captable/rtk-tech-captable.lef
 
 #Edit Captable LEF because it doesn't like the LAYER licon in it and doesn't need the additions
-sed -i '/^LAYER licon$/,/^END licon$/d' $TOP/view-standard/rtk-tech-captable.lef
+sed -i '/^LAYER licon$/,/^END licon$/d' $TOP/generate_captable/rtk-tech-captable.lef
 
 # LEF For rest of processes
 sed -i '/^LAYER licon$/,/^END licon$/d' $TOP/view-standard/rtk-tech.lef
